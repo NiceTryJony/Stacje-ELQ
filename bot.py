@@ -127,8 +127,9 @@ async def cmd_start(message: Message, state: FSMContext):
         "Привет! Это бот <b>Stacje-ELQ</b>.\n\n"
         "Команды:\n"
         "/add — добавить новую станцию\n"
-        "/list — показать станции (с кнопками карты/правки/удаления)\n"
-        "/find <code>текст</code> — поиск по названию\n"
+        "/list — первые 30 станций (сортировка по номеру)\n"
+        "/list_all — вообще все станции\n"
+        "/find <code>текст</code> — поиск по названию, описанию и доп. инфо\n"
         "/count — количество станций в базе\n"
         "/cancel — отменить текущий ввод\n\n"
         "Этот чат добавлен в список получателей уведомлений \"бот активен\".",
@@ -257,29 +258,80 @@ def _station_card_text(p: dict, idx: int | None = None) -> str:
     return text
 
 
-MAX_LIST_CARDS = 30  # защита от залипания при 100+ станциях — дальше проси /find
+def _sort_by_station_number(stations: list[dict]) -> list[dict]:
+    """Сортирует по номеру станции, извлечённому из note (см. db.extract_station_number).
+    Станции без номера (например 'Mykola Holovchenko') уходят в конец списка."""
+    def key(p: dict):
+        n = db.extract_station_number(p.get("note"))
+        return (n is None, n if n is not None else 0)
+    return sorted(stations, key=key)
+
+
+def _number_range_label(chunk: list[dict]) -> str | None:
+    """'№ 1419–1536' для блока станций, или None, если ни у одной нет номера."""
+    numbers = [db.extract_station_number(p.get("note")) for p in chunk]
+    numbers = [n for n in numbers if n is not None]
+    if not numbers:
+        return None
+    lo, hi = min(numbers), max(numbers)
+    return f"№ {lo}" if lo == hi else f"№ {lo}–{hi}"
+
+
+MAX_LIST_CARDS = 30  # для /list без _all — защита от залипания на больших базах
+LIST_CHUNK_SIZE = 30  # размер блока для /list_all, с заголовком диапазона номеров
+
+
+async def _send_station_chunks(message: Message, stations: list[dict], chunk_size: int):
+    """Шлёт станции блоками: перед каждым блоком — заголовок с диапазоном
+    номеров (если он есть у станций в блоке), внутри — карточки с кнопками."""
+    total = len(stations)
+    for start in range(0, total, chunk_size):
+        chunk = stations[start : start + chunk_size]
+        label = _number_range_label(chunk)
+        header = f"— Станции {start + 1}–{start + len(chunk)} из {total}"
+        if label:
+            header += f" ({label}) —"
+        else:
+            header += " —"
+        await message.answer(header)
+
+        for idx, p in enumerate(chunk, start=start + 1):
+            await message.answer(
+                _station_card_text(p, idx),
+                parse_mode="HTML",
+                reply_markup=station_row_kb(p),
+            )
 
 
 @dp.message(Command("list"))
 async def cmd_list(message: Message):
     await db.set_last_activity_now()
-    stations = await db.list_stations()
+    stations = _sort_by_station_number(await db.list_stations())
     if not stations:
         await message.answer("База пуста.")
         return
 
     shown = stations[:MAX_LIST_CARDS]
-    for idx, p in enumerate(shown, start=1):
+    await _send_station_chunks(message, shown, chunk_size=MAX_LIST_CARDS)
+
+    if len(stations) > MAX_LIST_CARDS:
         await message.answer(
-            _station_card_text(p, idx),
-            parse_mode="HTML",
-            reply_markup=station_row_kb(p),
+            f"Показаны первые {MAX_LIST_CARDS} из {len(stations)} (отсортировано по номеру).\n"
+            f"Все станции — /list_all. Поиск — /find <текст>."
         )
 
-    footer = f"Показано {len(shown)} из {len(stations)}."
-    if len(stations) > MAX_LIST_CARDS:
-        footer += " Для остальных используй /find <название>."
-    await message.answer(footer)
+
+@dp.message(Command("list_all"))
+async def cmd_list_all(message: Message):
+    await db.set_last_activity_now()
+    stations = _sort_by_station_number(await db.list_stations())
+    if not stations:
+        await message.answer("База пуста.")
+        return
+
+    await message.answer(f"Всего станций: {len(stations)}. Отправляю все, отсортированные по номеру...")
+    await _send_station_chunks(message, stations, chunk_size=LIST_CHUNK_SIZE)
+    await message.answer(f"Готово. Показаны все {len(stations)} станций.")
 
 
 @dp.message(Command("find"))
@@ -287,10 +339,14 @@ async def cmd_find(message: Message):
     await db.set_last_activity_now()
     query = message.text.removeprefix("/find").strip()
     if not query:
-        await message.answer("Использование: <code>/find часть названия</code>", parse_mode="HTML")
+        await message.answer(
+            "Использование: <code>/find текст</code>\n"
+            "Ищет по названию, описанию и доп. информации.",
+            parse_mode="HTML",
+        )
         return
 
-    results = await db.find_stations(query)
+    results = _sort_by_station_number(await db.find_stations(query))
     if not results:
         await message.answer(f"По запросу «{query}» ничего не найдено.")
         return

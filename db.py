@@ -3,6 +3,7 @@
 достаточно httpx + сервисного ключа.
 """
 import os
+import re
 
 from datetime import datetime, timezone
 from typing import Any
@@ -10,6 +11,18 @@ from dotenv import load_dotenv
 load_dotenv()
 
 import httpx
+
+
+_LEADING_NUMBER_RE = re.compile(r"^\s*(\d+)")
+
+
+def extract_station_number(note: str | None) -> int | None:
+    """Достаёт номер станции из начала note: '1419, 1420 Jaworówko 2023' -> 1419.
+    None, если note пуст или не начинается с числа ('Mykola Holovchenko')."""
+    if not note:
+        return None
+    m = _LEADING_NUMBER_RE.match(note)
+    return int(m.group(1)) if m else None
 
 SUPABASE_URL = os.environ["SUPABASE_URL"].rstrip("/")
 SUPABASE_KEY = os.environ["SUPABASE_SERVICE_KEY"]  # service_role key (пишет в обход RLS)
@@ -64,15 +77,24 @@ async def get_station(station_id: int) -> dict | None:
         return rows[0] if rows else None
 
 
-async def find_stations(query: str, limit: int = 20) -> list[dict]:
-    """Поиск по названию (регистронезависимый substring-поиск через ilike)."""
+def _escape_ilike(s: str) -> str:
+    # PostgREST использует запятую и скобки как служебные символы в or=(...)
+    # — экранируем их, чтобы поиск с такими символами не ломал запрос.
+    return s.replace(",", "\\,").replace("(", "\\(").replace(")", "\\)")
+
+
+async def find_stations(query: str, limit: int = 50) -> list[dict]:
+    """Поиск по всей базе: название, описание (note) и доп. инфо (note2).
+    Регистронезависимый substring-поиск (ilike) по каждому из трёх полей."""
+    q = _escape_ilike(query)
+    or_filter = f"name.ilike.*{q}*,note.ilike.*{q}*,note2.ilike.*{q}*"
     async with httpx.AsyncClient() as client:
         r = await client.get(
             _url("stations"),
             headers=HEADERS,
             params={
                 "select": "*",
-                "name": f"ilike.*{query}*",
+                "or": f"({or_filter})",
                 "order": "id.asc",
                 "limit": str(limit),
             },
