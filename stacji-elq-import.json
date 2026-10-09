@@ -1,6 +1,6 @@
 {
   "list_name": "Stacji ELQ",
-  "owner": "Mykola Holovchenko",
+  "owner": "Myko",
   "total": 115,
   "places": [
     {
@@ -111,7 +111,7 @@
       "coordinates": "52.506266, 18.513555",
       "google_place_id": null,
       "google_maps_url": null,
-      "note": "Mykola Holovchenko"
+      "note": ""
     },
     {
       "name": "Поставлена шпилька",
@@ -161,7 +161,7 @@
       "coordinates": "50.62723, 22.68599",
       "google_place_id": null,
       "google_maps_url": null,
-      "note": "Mykola Holovchenko"
+      "note": ""
     },
     {
       "name": "Поставлена шпилька",
@@ -1151,7 +1151,7 @@
       "coordinates": "51.6469619, 20.1344402",
       "google_place_id": null,
       "google_maps_url": null,
-      "note": "Mykola Holovchenko"
+      "note": ""
     }
   ]
 }
