@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: stacje-elq-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: BASE_URL
+        sync: false
+      - key: WEBHOOK_SECRET
+        generateValue: true
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      - key: PING_INTERVAL_DAYS
+        value: "3"
+      - key: PORT
+        value: "10000"
