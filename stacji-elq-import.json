@@ -1,0 +1,1157 @@
+{
+  "list_name": "Stacji ELQ",
+  "owner": "Mykola Holovchenko",
+  "total": 115,
+  "places": [
+    {
+      "name": "Jaworówko 3",
+      "address": "Jaworówko 3, 62-291 Jaworówko",
+      "lat": 52.708621,
+      "lng": 17.4233709,
+      "coordinates": "52.708621, 17.4233709",
+      "google_place_id": "/g/11j15jrr7w",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:/g/11j15jrr7w",
+      "note": "1419, 1420 Jaworówko 2023"
+    },
+    {
+      "name": "Маркер без назви",
+      "address": null,
+      "lat": 52.64046,
+      "lng": 16.5938411,
+      "coordinates": "52.64046, 16.5938411",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1473 Mutowo 2024"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Дрезденко",
+      "lat": 52.8173933,
+      "lng": 15.8205589,
+      "coordinates": "52.8173933, 15.8205589",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1502 Osów II 2024"
+    },
+    {
+      "name": "Маркер без назви",
+      "address": null,
+      "lat": 52.8160914,
+      "lng": 15.8211929,
+      "coordinates": "52.8160914, 15.8211929",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1503 Osów 2024"
+    },
+    {
+      "name": "Маркер без назви",
+      "address": null,
+      "lat": 52.8158179,
+      "lng": 15.8053314,
+      "coordinates": "52.8158179, 15.8053314",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1504 Osów III 2024"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Pieńki, 97-320",
+      "lat": 51.487275999999994,
+      "lng": 19.882085,
+      "coordinates": "51.487275999999994, 19.882085",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1531 Drobiarskie Kalen 2024"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Переворськ",
+      "lat": 50.0632686,
+      "lng": 22.483250599999998,
+      "coordinates": "50.0632686, 22.483250599999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1535 Przeworsk 2024"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Переворськ",
+      "lat": 50.0648163,
+      "lng": 22.479797299999998,
+      "coordinates": "50.0648163, 22.479797299999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1536 Przeworsk 2024"
+    },
+    {
+      "name": "Переворськ",
+      "address": "37-200 Переворськ",
+      "lat": 50.0645911,
+      "lng": 22.4757794,
+      "coordinates": "50.0645911, 22.4757794",
+      "google_place_id": "/g/11c62zfxc8",
+      "google_maps_url": "https://www.google.com/maps/place/?q=place_id:/g/11c62zfxc8",
+      "note": "1537 Przeworsk 2024"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Любін",
+      "lat": 51.422487999999994,
+      "lng": 16.202189999999998,
+      "coordinates": "51.422487999999994, 16.202189999999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1523 Lubin 2 2024"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Пйотркув-Куявський",
+      "lat": 52.506266,
+      "lng": 18.513555,
+      "coordinates": "52.506266, 18.513555",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "Mykola Holovchenko"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Опалениця, 64-330",
+      "lat": 52.282841999999995,
+      "lng": 16.432654,
+      "coordinates": "52.282841999999995, 16.432654",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1459 1460 Opalenica 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Дзялошице",
+      "lat": 50.353156,
+      "lng": 20.357518,
+      "coordinates": "50.353156, 20.357518",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1439 Dziekanowice 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Дзялошице, 28-440",
+      "lat": 50.418755,
+      "lng": 20.31029,
+      "coordinates": "50.418755, 20.31029",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1437 Sancygniów 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Zawiercie, Заверце",
+      "lat": 50.498391999999996,
+      "lng": 19.382949999999997,
+      "coordinates": "50.498391999999996, 19.382949999999997",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1458 Zawiercie Elemental 2024"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Фрамполь, 23-440",
+      "lat": 50.62723,
+      "lng": 22.68599,
+      "coordinates": "50.62723, 22.68599",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "Mykola Holovchenko"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Душники",
+      "lat": 52.473715999999996,
+      "lng": 16.433996999999998,
+      "coordinates": "52.473715999999996, 16.433996999999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1501 Wilczyna 2024"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: 59-300 Любін",
+      "lat": 51.422587799999995,
+      "lng": 16.2084597,
+      "coordinates": "51.422587799999995, 16.2084597",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1524 Lubin ZKSN 2024"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Любін",
+      "lat": 51.4235,
+      "lng": 16.2019335,
+      "coordinates": "51.4235, 16.2019335",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1522 Lubin 1 2024"
+    },
+    {
+      "name": "50°53'27.4\"N 15°41'54.5\"E",
+      "address": null,
+      "lat": 50.890941999999995,
+      "lng": 15.698469,
+      "coordinates": "50.890941999999995, 15.698469",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1443 Helena Góra 2023\n16.09.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Стара Весь",
+      "lat": 51.8177679,
+      "lng": 20.7941751,
+      "coordinates": "51.8177679, 20.7941751",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1461 Stara Wieś 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: 05-622 Бельськ-Дужи",
+      "lat": 51.8224622,
+      "lng": 20.801809,
+      "coordinates": "51.8224622, 20.801809",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1462 Ferrero 2023"
+    },
+    {
+      "name": "53°17'56.1\"N 15°58'03.3\"E",
+      "address": null,
+      "lat": 53.298922,
+      "lng": 15.967585999999999,
+      "coordinates": "53.298922, 15.967585999999999",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1320 Pruszcz"
+    },
+    {
+      "name": "53°02'53.5\"N 15°40'01.2\"E",
+      "address": null,
+      "lat": 53.048199999999994,
+      "lng": 15.667003,
+      "coordinates": "53.048199999999994, 15.667003",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1311 Płoszkowa"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Висока Ґлоґовська",
+      "lat": 50.160096499999995,
+      "lng": 22.049771399999997,
+      "coordinates": "50.160096499999995, 22.049771399999997",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1540 Wysoka Głogowska"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Висока Ґлоґовська",
+      "lat": 50.1581814,
+      "lng": 22.0497017,
+      "coordinates": "50.1581814, 22.0497017",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1541 Wysoka Głogowska"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Висока Ґлоґовська",
+      "lat": 50.158234,
+      "lng": 22.047048699999998,
+      "coordinates": "50.158234, 22.047048699999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1542 Wysoka Głogowska 2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Висока Ґлоґовська",
+      "lat": 50.159314699999996,
+      "lng": 22.047117399999998,
+      "coordinates": "50.159314699999996, 22.047117399999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1543 Wysoka Głogowska 2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Завади",
+      "lat": 53.1862466,
+      "lng": 22.597957599999997,
+      "coordinates": "53.1862466, 22.597957599999997",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1554 Kurniki - Targowanie - Wity 2024"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Висока Ґлоґовська",
+      "lat": 50.157530099999995,
+      "lng": 22.0435846,
+      "coordinates": "50.157530099999995, 22.0435846",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1544 Wysoka Głogowska 2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Висока Ґлоґовська",
+      "lat": 50.159559599999994,
+      "lng": 22.043636199999998,
+      "coordinates": "50.159559599999994, 22.043636199999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1545 Wysoka Głogowska 2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Szczecinek",
+      "lat": 53.6416487,
+      "lng": 16.7198386,
+      "coordinates": "53.6416487, 16.7198386",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1464 Turowo"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Szczecinek",
+      "lat": 53.637830099999995,
+      "lng": 16.7195291,
+      "coordinates": "53.637830099999995, 16.7195291",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1465 Turowo"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Szczecinek",
+      "lat": 53.639205499999996,
+      "lng": 16.719455699999997,
+      "coordinates": "53.639205499999996, 16.719455699999997",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1466 Turowo"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Решель",
+      "lat": 54.066697,
+      "lng": 21.145116599999998,
+      "coordinates": "54.066697, 21.145116599999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1274 Dębnik 2022"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Решель",
+      "lat": 54.064959599999995,
+      "lng": 21.1458965,
+      "coordinates": "54.064959599999995, 21.1458965",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1278 Dębnik 2022"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Решель",
+      "lat": 54.0666271,
+      "lng": 21.1479222,
+      "coordinates": "54.0666271, 21.1479222",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1275 Dębnik 2022"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Решель",
+      "lat": 54.0655097,
+      "lng": 21.1483544,
+      "coordinates": "54.0655097, 21.1483544",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1277 Dębnik 2022"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Решель",
+      "lat": 54.064940899999996,
+      "lng": 21.1487105,
+      "coordinates": "54.064940899999996, 21.1487105",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1279 Dębnik 2022"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Решель",
+      "lat": 54.0655692,
+      "lng": 21.145758,
+      "coordinates": "54.0655692, 21.145758",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1276 Dębnik 2022"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Корше",
+      "lat": 54.1130402,
+      "lng": 21.1019904,
+      "coordinates": "54.1130402, 21.1019904",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1556 Suśnik 2024"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Старе Поле",
+      "lat": 54.048409299999996,
+      "lng": 19.1195761,
+      "coordinates": "54.048409299999996, 19.1195761",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1557 Królewo 2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Лозениця",
+      "lat": 53.5330441,
+      "lng": 14.800319,
+      "coordinates": "53.5330441, 14.800319",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1516 Łozienica 2024"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Кунюв",
+      "lat": 50.9523028,
+      "lng": 18.2373627,
+      "coordinates": "50.9523028, 18.2373627",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1336 Kuniów 4A 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Кунюв",
+      "lat": 50.953661499999995,
+      "lng": 18.2371917,
+      "coordinates": "50.953661499999995, 18.2371917",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1337 Kuniów 4B 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: 46-200 Кунюв",
+      "lat": 50.949973899999996,
+      "lng": 18.2361741,
+      "coordinates": "50.949973899999996, 18.2361741",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1334 Kuniów 1 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: 46-320 Ковале",
+      "lat": 51.092554199999995,
+      "lng": 18.475697099999998,
+      "coordinates": "51.092554199999995, 18.475697099999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1349 Kiczmachów 1 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: 46-320 Ковале",
+      "lat": 51.0903151,
+      "lng": 18.4747137,
+      "coordinates": "51.0903151, 18.4747137",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1350 Kiczmachów 2 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Ліпе",
+      "lat": 51.033372199999995,
+      "lng": 18.8119284,
+      "coordinates": "51.033372199999995, 18.8119284",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1352 Albertów 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Попув",
+      "lat": 51.0381016,
+      "lng": 18.887084899999998,
+      "coordinates": "51.0381016, 18.887084899999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1347 Florianów 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Попув",
+      "lat": 50.9931461,
+      "lng": 18.8874678,
+      "coordinates": "50.9931461, 18.8874678",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1348 Rębielice 2 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Попув",
+      "lat": 50.9784964,
+      "lng": 18.8684747,
+      "coordinates": "50.9784964, 18.8684747",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1345 Rębielice 3 2023"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Острув-Велькопольський",
+      "lat": 51.7186403,
+      "lng": 17.910733,
+      "coordinates": "51.7186403, 17.910733",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1614 Kwiatków 2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Ґоворово",
+      "lat": 52.907685799999996,
+      "lng": 21.6262939,
+      "coordinates": "52.907685799999996, 21.6262939",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1624 Brzeźno 2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Скаршеви",
+      "lat": 54.0773377,
+      "lng": 18.416556399999997,
+      "coordinates": "54.0773377, 18.416556399999997",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1607 Skarszewy 2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: 98-405 Ґалевіце",
+      "lat": 51.332736399999995,
+      "lng": 18.257790399999998,
+      "coordinates": "51.332736399999995, 18.257790399999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1602 Galewice 2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Висока Ґлоґовська",
+      "lat": 50.161513299999996,
+      "lng": 22.0387821,
+      "coordinates": "50.161513299999996, 22.0387821",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1547 Wysoka Głogowska 2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Курник",
+      "lat": 52.314105299999994,
+      "lng": 17.0610628,
+      "coordinates": "52.314105299999994, 17.0610628",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1640 2025\n08.07.2025\n17.07.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Черневіце",
+      "lat": 51.684405999999996,
+      "lng": 20.2317038,
+      "coordinates": "51.684405999999996, 20.2317038",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1637 Krzemienica 2025\n15.07.2025"
+    },
+    {
+      "name": "51°59'30.5\"N 17°43'25.2\"E",
+      "address": null,
+      "lat": 51.991811,
+      "lng": 17.72366,
+      "coordinates": "51.991811, 17.72366",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1625 Pieruszyce 2025\n17.07.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Marszałka Józefa Piłsudskiego, 72-112 Stepnica",
+      "lat": 53.6510545,
+      "lng": 14.6361186,
+      "coordinates": "53.6510545, 14.6361186",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1636 IKEA Stepnica 2\n30.07.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Stepnica",
+      "lat": 53.6519523,
+      "lng": 14.637607899999999,
+      "coordinates": "53.6519523, 14.637607899999999",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1570 IKEA Stepnica 1 2025\n30.07.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Kamienna Góra, Каменна Ґура",
+      "lat": 50.7822767,
+      "lng": 16.0114075,
+      "coordinates": "50.7822767, 16.0114075",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1661 Kalibra 2025 Kamienna Góra\n07.08.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Kamienna Góra, Каменна Ґура",
+      "lat": 50.7834186,
+      "lng": 16.008734,
+      "coordinates": "50.7834186, 16.008734",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1662 Kalibra 2025 Kamienna Góra\n07.08.2025\n06.10.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна М'єндзихуд",
+      "lat": 52.4800259,
+      "lng": 15.959098399999998,
+      "coordinates": "52.4800259, 15.959098399999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "29/2019 Lewice \n14.08.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Некля",
+      "lat": 52.3361678,
+      "lng": 17.424964799999998,
+      "coordinates": "52.3361678, 17.424964799999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1261 Stępocin 2 2022\n26.08.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Некля",
+      "lat": 52.3360756,
+      "lng": 17.424887,
+      "coordinates": "52.3360756, 17.424887",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1260 Stępocin 1 2022\n26.08.2025"
+    },
+    {
+      "name": "51°21'19.6\"N 19°27'49.8\"E",
+      "address": null,
+      "lat": 51.355441299999995,
+      "lng": 19.4638383,
+      "coordinates": "51.355441299999995, 19.4638383",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1639 Janina-Michałów 2025\n03.09.2025\n05.09.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Марцишув",
+      "lat": 50.861530699999996,
+      "lng": 16.0073014,
+      "coordinates": "50.861530699999996, 16.0073014",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1561 Ciechanowice 2025\n11.09.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Марцишув",
+      "lat": 50.8665624,
+      "lng": 16.012933699999998,
+      "coordinates": "50.8665624, 16.012933699999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1560 Ciechanowice 2025\n12.09.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "Поблизу такого місця: Ґміна Марцишув",
+      "lat": 50.859115499999994,
+      "lng": 16.0082613,
+      "coordinates": "50.859115499999994, 16.0082613",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1562 Ciechanowice 2025\n13.09.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "50.891740,15.693923",
+      "lat": 50.891740299999995,
+      "lng": 15.6939228,
+      "coordinates": "50.891740299999995, 15.6939228",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1444 Jelenia Góra 2023\n16.09.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "51.895820,18.962514",
+      "lat": 51.8958199,
+      "lng": 18.962514,
+      "coordinates": "51.8958199, 18.962514",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1702 Poddębice\n24.09.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.298478,16.383068",
+      "lat": 52.2984776,
+      "lng": 16.3830684,
+      "coordinates": "52.2984776, 16.3830684",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1262 Sielinko 1 2022\n\n02.10.2025\n20.01.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.298380,16.383109",
+      "lat": 52.2983796,
+      "lng": 16.383109,
+      "coordinates": "52.2983796, 16.383109",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1263 Sielinko 2 2022\n\n02.10.2025\n20.01.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "53.417472,21.377790",
+      "lat": 53.417472399999994,
+      "lng": 21.3777899,
+      "coordinates": "53.417472399999994, 21.3777899",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "16333/2022 10А2360 WOLKOWE\n06.10.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "51.914342,20.431258",
+      "lat": 51.9143422,
+      "lng": 20.4312585,
+      "coordinates": "51.9143422, 20.4312585",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1651 Wola Pękoszewska 2025\n16.10.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "50.787933,16.325333",
+      "lat": 50.7879327,
+      "lng": 16.3253332,
+      "coordinates": "50.7879327, 16.3253332",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1615 Stary Zdrój 2025\n30.10.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "50.782287,16.324537",
+      "lat": 50.7822866,
+      "lng": 16.3245369,
+      "coordinates": "50.7822866, 16.3245369",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1616 Stary Zdrój Slawe 2025\n30.10.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "49.980782,19.157086",
+      "lat": 49.980782,
+      "lng": 19.1570865,
+      "coordinates": "49.980782, 19.1570865",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1638 Brzeszcze 2025\n17.11.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "51.714447,17.883792",
+      "lat": 51.7144474,
+      "lng": 17.8837919,
+      "coordinates": "51.7144474, 17.8837919",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1665 Ostrów 2025\n19.11.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "51.714127,17.886470",
+      "lat": 51.714126699999994,
+      "lng": 17.8864697,
+      "coordinates": "51.714126699999994, 17.8864697",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1666 Ostrów 2025\n19.11.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.600901,22.147507",
+      "lat": 52.6009013,
+      "lng": 22.1475068,
+      "coordinates": "52.6009013, 22.1475068",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1728 Kosów Lacki 2025\n25.11.2025\n09.12.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "50.381910,19.152864",
+      "lat": 50.3819099,
+      "lng": 19.152863999999997,
+      "coordinates": "50.3819099, 19.152863999999997",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1707 Sarnów 2025\n29.11.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "50.382118,19.151123",
+      "lat": 50.3821179,
+      "lng": 19.1511226,
+      "coordinates": "50.3821179, 19.1511226",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1708 Sarnów 2025\n29.11.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.866031,16.579075",
+      "lat": 52.866031299999996,
+      "lng": 16.5790749,
+      "coordinates": "52.866031299999996, 16.5790749",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1664 Rolpol (Prusinowo) 2025\n10.12.2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "54.030843,22.862250",
+      "lat": 54.0308427,
+      "lng": 22.8622504,
+      "coordinates": "54.0308427, 22.8622504",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1685 Bakaniuk 1 2025\n\n16.12.2025\n24.04.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "50.709607,18.669188",
+      "lat": 50.709607,
+      "lng": 18.6691879,
+      "coordinates": "50.709607, 18.6691879",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1713 Kochcice 2025\n08.01.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "51.591366,17.686356",
+      "lat": 51.5913659,
+      "lng": 17.6863562,
+      "coordinates": "51.5913659, 17.6863562",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "64/2020 Tarchały Wielkie\n\n20.01.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "50.161491,22.047267",
+      "lat": 50.161490699999995,
+      "lng": 22.0472669,
+      "coordinates": "50.161490699999995, 22.0472669",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1546 Wysoka Głogowska 2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.058781,18.565535",
+      "lat": 52.0587812,
+      "lng": 18.5655353,
+      "coordinates": "52.0587812, 18.5655353",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1023 Kalinowa 2020\n\n11.02.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.375900,18.537961",
+      "lat": 52.3758999,
+      "lng": 18.537960899999998,
+      "coordinates": "52.3758999, 18.537960899999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1717"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "53.316806,15.860355",
+      "lat": 53.316805699999996,
+      "lng": 15.860354899999999,
+      "coordinates": "53.316805699999996, 15.860354899999999",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1695 Jasnopole 4 2025\n\n25.02.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "53.318225,15.858423",
+      "lat": 53.3182251,
+      "lng": 15.8584233,
+      "coordinates": "53.3182251, 15.8584233",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1694 Jasnopole 3 2025\n\n25.02.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "53.122586,18.078714",
+      "lat": 53.1225856,
+      "lng": 18.078713699999998,
+      "coordinates": "53.1225856, 18.078713699999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1730-U Bydgoszcz Magazyn Surowców 2026\n\n18.03.26"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "51.751011,20.303393",
+      "lat": 51.7510105,
+      "lng": 20.3033929,
+      "coordinates": "51.7510105, 20.3033929",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1750 Komorów 2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.004073,22.311619",
+      "lat": 52.004073299999995,
+      "lng": 22.311619399999998,
+      "coordinates": "52.004073299999995, 22.311619399999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1761 AgroTop (Siedlce)"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.637085,18.928446",
+      "lat": 52.637085199999994,
+      "lng": 18.9284456,
+      "coordinates": "52.637085199999994, 18.9284456",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1727 Machnacz 4 2025\n\n30.03.26"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "53.122994,18.077232",
+      "lat": 53.122994399999996,
+      "lng": 18.0772318,
+      "coordinates": "53.122994399999996, 18.0772318",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1690 Bydgoszcz 2025"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "54.018380,20.079213",
+      "lat": 54.018379599999996,
+      "lng": 20.079213499999998,
+      "coordinates": "54.018379599999996, 20.079213499999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1258 Miłakowo 2023\n\n23.04.26"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "54.018368,20.079380",
+      "lat": 54.0183678,
+      "lng": 20.079379799999998,
+      "coordinates": "54.0183678, 20.079379799999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1259 Miłakowo 2022\n\n23.04.26"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "53.460033,21.218465",
+      "lat": 53.4600332,
+      "lng": 21.2184647,
+      "coordinates": "53.4600332, 21.2184647",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1254 Radostowo 2024\n\n14.06.2024\n05.05.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.635142,16.619981",
+      "lat": 52.6351425,
+      "lng": 16.6199813,
+      "coordinates": "52.6351425, 16.6199813",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1738 Szamotuły ST1 SLAVE"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.634192,16.619084",
+      "lat": 52.634192,
+      "lng": 16.6190837,
+      "coordinates": "52.634192, 16.6190837",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1737 Szamotuły"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.632997,16.616554",
+      "lat": 52.632996999999996,
+      "lng": 16.6165544,
+      "coordinates": "52.632996999999996, 16.6165544",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1740 Szamotuły ST3 SLAVE"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.631870,16.616064",
+      "lat": 52.6318705,
+      "lng": 16.6160642,
+      "coordinates": "52.6318705, 16.6160642",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1739 Szamotuły ST4 Master"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "52.329107,17.613262",
+      "lat": 52.3291074,
+      "lng": 17.613261599999998,
+      "coordinates": "52.3291074, 17.613261599999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1731 Gutowo Wielkie"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "51.607785,15.386415",
+      "lat": 51.6077845,
+      "lng": 15.3864152,
+      "coordinates": "51.6077845, 15.3864152",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1772 Żagan (Slave1) 2026\n\n16.07.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "51.606489,15.388034",
+      "lat": 51.6064887,
+      "lng": 15.3880343,
+      "coordinates": "51.6064887, 15.3880343",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1771 Żagań \n\n16.07.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "51.607304,15.382316",
+      "lat": 51.607304299999996,
+      "lng": 15.382315799999999,
+      "coordinates": "51.607304299999996, 15.382315799999999",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1773 Żagań (Slave2)\n\n17.07.26"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "53.086555,16.757715",
+      "lat": 53.0865547,
+      "lng": 16.757714699999998,
+      "coordinates": "53.0865547, 16.757714699999998",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1838"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "53.829869,20.612974",
+      "lat": 53.8298693,
+      "lng": 20.6129738,
+      "coordinates": "53.8298693, 20.6129738",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1824"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "49.812203,19.052925",
+      "lat": 49.8122032,
+      "lng": 19.0529252,
+      "coordinates": "49.8122032, 19.0529252",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1827 Bielsko Biała 2026\n\n14.09.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "49.864939,19.045481",
+      "lat": 49.8649388,
+      "lng": 19.0454808,
+      "coordinates": "49.8649388, 19.0454808",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "1832 Bielsko Biała 2026\n\n14.09.2026"
+    },
+    {
+      "name": "Поставлена шпилька",
+      "address": "51.646962,20.134440",
+      "lat": 51.6469619,
+      "lng": 20.1344402,
+      "coordinates": "51.6469619, 20.1344402",
+      "google_place_id": null,
+      "google_maps_url": null,
+      "note": "Mykola Holovchenko"
+    }
+  ]
+}
