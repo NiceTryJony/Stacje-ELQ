@@ -25,7 +25,14 @@ def _url(table: str) -> str:
     return f"{SUPABASE_URL}/rest/v1/{table}"
 
 
-async def add_station(lat: float, lng: float, name: str, note: str | None, address: str | None = None) -> dict:
+async def add_station(
+    lat: float,
+    lng: float,
+    name: str,
+    note: str | None,
+    note2: str | None = None,
+    address: str | None = None,
+) -> dict:
     payload = {
         "name": name,
         "address": address,
@@ -33,6 +40,7 @@ async def add_station(lat: float, lng: float, name: str, note: str | None, addre
         "lng": lng,
         "google_maps_url": f"https://www.google.com/maps?q={lat},{lng}",
         "note": note,
+        "note2": note2,
     }
     async with httpx.AsyncClient() as client:
         r = await client.post(
@@ -42,6 +50,76 @@ async def add_station(lat: float, lng: float, name: str, note: str | None, addre
         )
         r.raise_for_status()
         return r.json()[0]
+
+
+async def get_station(station_id: int) -> dict | None:
+    async with httpx.AsyncClient() as client:
+        r = await client.get(
+            _url("stations"),
+            headers=HEADERS,
+            params={"select": "*", "id": f"eq.{station_id}"},
+        )
+        r.raise_for_status()
+        rows = r.json()
+        return rows[0] if rows else None
+
+
+async def find_stations(query: str, limit: int = 20) -> list[dict]:
+    """Поиск по названию (регистронезависимый substring-поиск через ilike)."""
+    async with httpx.AsyncClient() as client:
+        r = await client.get(
+            _url("stations"),
+            headers=HEADERS,
+            params={
+                "select": "*",
+                "name": f"ilike.*{query}*",
+                "order": "id.asc",
+                "limit": str(limit),
+            },
+        )
+        r.raise_for_status()
+        return r.json()
+
+
+async def update_station(station_id: int, fields: dict) -> dict | None:
+    async with httpx.AsyncClient() as client:
+        r = await client.patch(
+            _url("stations"),
+            headers={**HEADERS, "Prefer": "return=representation"},
+            params={"id": f"eq.{station_id}"},
+            json=fields,
+        )
+        r.raise_for_status()
+        rows = r.json()
+        return rows[0] if rows else None
+
+
+async def delete_station(station_id: int) -> bool:
+    async with httpx.AsyncClient() as client:
+        r = await client.delete(
+            _url("stations"),
+            headers={**HEADERS, "Prefer": "return=representation"},
+            params={"id": f"eq.{station_id}"},
+        )
+        r.raise_for_status()
+        return len(r.json()) > 0
+
+
+async def find_nearby(lat: float, lng: float, radius_deg: float = 0.0005) -> list[dict]:
+    """Грубая проверка дублей по bounding box (~50м на этих широтах).
+    Не настоящая геодезия — для предупреждения о возможном дубле этого достаточно."""
+    async with httpx.AsyncClient() as client:
+        r = await client.get(
+            _url("stations"),
+            headers=HEADERS,
+            params={
+                "select": "*",
+                "and": f"(lat.gte.{lat - radius_deg},lat.lte.{lat + radius_deg},"
+                       f"lng.gte.{lng - radius_deg},lng.lte.{lng + radius_deg})",
+            },
+        )
+        r.raise_for_status()
+        return r.json()
 
 
 async def list_stations(limit: int = 1000) -> list[dict]:

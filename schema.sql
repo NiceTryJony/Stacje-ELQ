@@ -1,5 +1,7 @@
 -- Выполнить в Supabase SQL Editor перед первым запуском бота
 
+create extension if not exists pg_trgm;
+
 create table if not exists stations (
     id bigint generated always as identity primary key,
     name text not null,
@@ -8,8 +10,16 @@ create table if not exists stations (
     lng double precision not null,
     google_maps_url text,
     note text,
+    note2 text,
     created_at timestamptz not null default now()
 );
+
+-- Если таблица уже существует с прошлого деплоя — выполни отдельно эту строку:
+-- alter table stations add column if not exists note2 text;
+
+-- Простой текстовый поиск по названию (для /find)
+create index if not exists stations_name_trgm_idx
+    on stations using gin (name gin_trgm_ops);
 
 create table if not exists subscribers (
     chat_id bigint primary key,
