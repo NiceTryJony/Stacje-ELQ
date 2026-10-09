@@ -215,27 +215,39 @@ async def health(request: web.Request) -> web.Response:
 
 
 async def on_startup(app: web.Application):
-    await bot.set_webhook(
-        url=f"{BASE_URL}{WEBHOOK_PATH}",
-        secret_token=WEBHOOK_SECRET,
-        drop_pending_updates=True,
-    )
+    try:
+        await bot.set_webhook(
+            url=f"{BASE_URL}{WEBHOOK_PATH}",
+            secret_token=WEBHOOK_SECRET,
+            drop_pending_updates=True,
+        )
+        log.info("Webhook установлен: %s%s", BASE_URL, WEBHOOK_PATH)
+    except Exception:
+        log.exception("НЕ УДАЛОСЬ установить webhook — бот не будет получать апдейты")
+        raise
     app["ping_task"] = asyncio.create_task(keepalive_ping_loop())
-    log.info("Webhook установлен: %s%s", BASE_URL, WEBHOOK_PATH)
 
 
 async def on_shutdown(app: web.Application):
     app["ping_task"].cancel()
-    #await bot.delete_webhook()
+    # delete_webhook() умышленно не вызываем — иначе при каждом редеплое
+    # Render webhook слетает и его пришлось бы ставить заново вручную.
     await bot.session.close()
 
 
 async def handle_webhook(request: web.Request) -> web.Response:
     if request.headers.get("X-Telegram-Bot-Api-Secret-Token") != WEBHOOK_SECRET:
+        log.warning("Webhook: неверный secret token")
         return web.Response(status=401)
-    data = await request.json()
-    update = Update.model_validate(data, context={"bot": bot})
-    await dp.feed_update(bot, update)
+    try:
+        data = await request.json()
+        update = Update.model_validate(data, context={"bot": bot})
+        await dp.feed_update(bot, update)
+    except Exception:
+        log.exception("Ошибка при обработке webhook-апдейта")
+        # Telegram не ретраит бесконечно на 200, но и не должен считать
+        # сервис недоступным — поэтому отвечаем 200, ошибку видно в логах
+        return web.Response(status=200)
     return web.Response()
 
 
